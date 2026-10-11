@@ -1,0 +1,22 @@
+{
+  "name": "dk-multimedia",
+  "version": "1.0.0",
+  "description": "Portfolio de Daniela Knoska",
+  "scripts": {
+    "images": "node scripts/images.mjs",
+    "pages": "node scripts/gen-pages.mjs",
+    "dev": "node scripts/gen-pages.mjs && vite",
+    "build": "node scripts/gen-pages.mjs && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "lightningcss": "^1.33.0",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.4"
+  },
+  "private": true
+}

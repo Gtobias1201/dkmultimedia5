@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80">
+  <symbol id="dk" viewBox="0 0 120 80">
+    <g fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="stroke:var(--logo,#c81d3a)">
+      <path pathLength="1" d="M10 6v68M18 6v68M18 6h14c24 0 36 12 36 34S56 74 32 74H18"/>
+      <path pathLength="1" d="M80 6v68M80 50L114 6M96 36l20 38"/>
+    </g>
+  </symbol>
+  <use href="#dk"/>
+</svg>

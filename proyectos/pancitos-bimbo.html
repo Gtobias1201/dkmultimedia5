@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Publicidad pancitos Bimbo · Daniela Knoska</title>
+  <meta name="description" content="Animación 3D para pancitos Bimbo: personajes y escenario modelados en 3ds Max y posproducidos en After Effects.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Publicidad pancitos Bimbo · Daniela Knoska">
+  <meta property="og:description" content="Animación 3D para pancitos Bimbo: personajes y escenario modelados en 3ds Max y posproducidos en After Effects.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="stylesheet" href="/src/styles/proyecto.css">
+  <script type="module" src="/src/proyecto.js"></script>
+</head>
+<body class="proyecto proyecto--bimbo">
+  <a class="cerrar" href="../index.html#animacion" aria-label="Cerrar y volver a Animación"><span aria-hidden="true">&times;</span></a>
+  <main>
+    <header class="head">
+      <p class="eyebrow">Animación</p>
+      <h1>Publicidad pancitos Bimbo</h1>
+      <ul class="meta">
+        <li>Tipo: Animación 3D</li>
+        <li>Plataforma: Videoplayer</li>
+        <li>Formato: MP4</li>
+      </ul>
+    </header>
+    
+    <section class="split">
+      <picture>
+        <source type="image/avif" srcset="../img/panes-800.avif 800w, ../img/panes-1400.avif 1400w" sizes="(min-width: 900px) 55vw, 100vw">
+        <source type="image/webp" srcset="../img/panes-800.webp 800w, ../img/panes-1400.webp 1400w" sizes="(min-width: 900px) 55vw, 100vw">
+        <img src="../img/panes-800.webp" alt="Pancitos animados en 3D" width="1400" height="707" fetchpriority="high">
+      </picture>
+      <div class="copy">
+        <h2>Acerca de</h2>
+        <p>El trabajo fue realizado en 3ds Max, donde se crearon tanto los personajes como el escenario, que luego fue posproducido en After Effects.</p>
+      </div>
+    </section>
+    <section class="wide">
+      <video class="video" controls preload="none" playsinline poster="../img/card-bimbo-960.webp" aria-label="Comercial de pancitos Bimbo">
+        <source src="../video/comercial.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+      </video>
+    </section>
+  </main>
+  <nav class="pager" aria-label="Más proyectos">
+    <a href="anidados-jump.html" rel="prev"><span aria-hidden="true">←</span> Anidados Jump</a>
+    <a href="../index.html#animacion">Todos los proyectos</a>
+    <a href="civilizaciones-andinas.html" rel="next">Civilizaciones Andinas <span aria-hidden="true">→</span></a>
+  </nav>
+</body>
+</html>

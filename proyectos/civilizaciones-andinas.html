@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Civilizaciones Andinas · Daniela Knoska</title>
+  <meta name="description" content="Matte painting, rotoscopia y tracking: elementos artificiales integrados a una escena real.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Civilizaciones Andinas · Daniela Knoska">
+  <meta property="og:description" content="Matte painting, rotoscopia y tracking: elementos artificiales integrados a una escena real.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="stylesheet" href="/src/styles/proyecto.css">
+  <script type="module" src="/src/proyecto.js"></script>
+</head>
+<body class="proyecto proyecto--andes">
+  <a class="cerrar" href="../index.html#animacion" aria-label="Cerrar y volver a Animación"><span aria-hidden="true">&times;</span></a>
+  <main>
+    <header class="head">
+      <p class="eyebrow">Animación</p>
+      <h1>Civilizaciones Andinas</h1>
+      <ul class="meta">
+        <li>Tipo: Posproducción</li>
+        <li>Plataforma: Videoplayer</li>
+        <li>Formato: MP4</li>
+      </ul>
+    </header>
+    
+    <section class="center copy">
+      <h2>Rotoscopia y tracking</h2>
+      <p>El trabajo consistió en agregar elementos de forma artificial que no pertenecieran a la naturaleza original de la escena, pero que lograsen adaptarse en ella como si siempre hubiesen estado allí.</p>
+    </section>
+    <section class="wide">
+      <picture>
+        <source type="image/avif" srcset="../img/mattep-900.avif 900w, ../img/mattep-1800.avif 1800w" sizes="(min-width: 1200px) 1100px, 100vw">
+        <source type="image/webp" srcset="../img/mattep-900.webp 900w, ../img/mattep-1800.webp 1800w" sizes="(min-width: 1200px) 1100px, 100vw">
+        <img src="../img/mattep-900.webp" alt="Matte painting de civilizaciones andinas" width="1800" height="461" fetchpriority="high">
+      </picture>
+    </section>
+    <section class="wide">
+      <video class="video" controls preload="none" playsinline poster="../img/card-andes-960.webp" aria-label="Civilizaciones Andinas, video completo">
+        <source src="../video/civilizaciones-andinas.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+      </video>
+    </section>
+  </main>
+  <nav class="pager" aria-label="Más proyectos">
+    <a href="pancitos-bimbo.html" rel="prev"><span aria-hidden="true">←</span> Publicidad pancitos Bimbo</a>
+    <a href="../index.html#animacion">Todos los proyectos</a>
+    <a href="impresion-del-ser.html" rel="next">Impresión del ser <span aria-hidden="true">→</span></a>
+  </nav>
+</body>
+</html>

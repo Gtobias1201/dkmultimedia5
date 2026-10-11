@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sobre mí y contacto · Daniela Knoska</title>
+  <meta name="description" content="Daniela Knoska, diseñadora multimedia y de interacción. Habilidades, educación y formas de contacto.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="stylesheet" href="/src/styles/contacto.css">
+  <script type="module" src="/src/contacto.js"></script>
+</head>
+<body class="contact">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Daniela Knoska, inicio">
+      <svg viewBox="0 0 120 80" aria-hidden="true"><use href="favicon.svg#dk"/></svg>
+    </a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a class="square_btn" href="index.html">Home</a></li>
+        <li><a class="square_btn" href="index.html#interactivos">Interactivos</a></li>
+        <li><a class="square_btn" href="index.html#animacion">Animación</a></li>
+        <li><a class="square_btn" href="index.html#impresos">Gráfico</a></li>
+        <li><a class="square_btn" href="contacto.html" aria-current="true">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- ───────── Sobre mí ───────── -->
+    <section class="about" aria-labelledby="h-about">
+      <div class="about__intro">
+        <h1 id="h-about">Sobre<br>mí</h1>
+        <p>Me llamo Daniela Knoska, vivo en Argentina. Soy diseñadora multimedia y de interacción, me considero crítica, metódica e introspectiva.</p>
+      </div>
+
+      <figure class="radar">
+        <svg viewBox="0 0 320 300" role="img" aria-labelledby="radar-t radar-d">
+          <title id="radar-t">Áreas de trabajo</title>
+          <desc id="radar-d">Gráfico radar: web y edición son las áreas más fuertes, seguidas por 3D, retoque digital, marketing y fotografía.</desc>
+          <g class="radar__rings">
+            <polygon points="110,63.4 210,63.4 260,150 210,236.6 110,236.6 60,150"/>
+            <polygon points="122.5,85.1 197.5,85.1 235,150 197.5,214.9 122.5,214.9 85,150"/>
+            <polygon points="135,106.7 185,106.7 210,150 185,193.3 135,193.3 110,150"/>
+            <polygon points="147.5,128.4 172.5,128.4 185,150 172.5,171.6 147.5,171.6 135,150"/>
+            <path d="M160 150 110 63.4M160 150l50-86.6M160 150h100M160 150l50 86.6M160 150l-50 86.6M160 150H60"/>
+          </g>
+          <polygon class="radar__shape" points="130,98 205,72 255,150 190,202 110,236.6 90,150"/>
+          <g class="radar__labels">
+            <text x="104" y="52" text-anchor="end">marketing</text>
+            <text x="216" y="52">3D</text>
+            <text x="268" y="154">edición</text>
+            <text x="216" y="252">fotografía</text>
+            <text x="104" y="252" text-anchor="end">web</text>
+            <text x="52" y="146" text-anchor="end">retoque</text>
+            <text x="52" y="160" text-anchor="end">digital</text>
+          </g>
+        </svg>
+      </figure>
+
+      <div class="skills" aria-label="Herramientas">
+        <ul>
+          <li style="--v:.85"><span>Illustrator</span><i></i></li>
+          <li style="--v:.8"><span>Photoshop</span><i></i></li>
+          <li style="--v:.6"><span>InDesign</span><i></i></li>
+          <li style="--v:.75"><span>3ds Max</span><i></i></li>
+          <li style="--v:.8"><span>HTML5 / CSS</span><i></i></li>
+        </ul>
+        <ul>
+          <li style="--v:.85"><span>Premiere</span><i></i></li>
+          <li style="--v:.4"><span>Audition</span><i></i></li>
+          <li style="--v:.8"><span>Construct 2</span><i></i></li>
+          <li style="--v:.75"><span>After Effects</span><i></i></li>
+          <li style="--v:.75"><span>JavaScript</span><i></i></li>
+        </ul>
+      </div>
+
+      <div class="edu">
+        <h2>Educación</h2>
+        <ol>
+          <li><b>2013</b><span>Escuela Da Vinci · Diseño multimedial</span></li>
+          <li><b>2014</b><span>CBC FADU · Diseño gráfico</span></li>
+          <li><b>2016</b><span>UADE · Lic. Diseño multimedia e interacción</span></li>
+        </ol>
+      </div>
+
+      <ul class="services">
+        <li>
+          <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30"/><path d="M26 22 14 32l12 10M38 22l12 10-12 10"/></svg>
+          <p><b>Front-end:</b> creación de sitios web responsive, apps mobile con jQuery, JavaScript, WordPress y CMS.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30"/><rect x="13" y="22" width="38" height="22" rx="4"/><path d="m29 28 8 5-8 5z"/></svg>
+          <p><b>Motion graphic:</b> edición de videos, animación de personajes, aperturas, intros, matte painting.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30"/><path d="M19 38V23a2 2 0 0 1 2-2h22a2 2 0 0 1 2 2v15M14 42h36l-3 4H17z"/></svg>
+          <p><b>Social media:</b> integración de blogs con redes sociales, estrategia, marketing de contenidos.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ───────── Contacto ───────── -->
+    <section class="contact-block" id="contacto-form" aria-labelledby="h-contacto">
+      <div class="formulario">
+        <h2 id="h-contacto">Contacto</h2>
+        <form method="post" action="send_mail.php" novalidate>
+          <label>
+            <span class="sr">Tu email</span>
+            <input type="email" name="email_address" placeholder="email@tuyo.com" autocomplete="email" required>
+          </label>
+          <label>
+            <span class="sr">Tu mensaje</span>
+            <textarea name="comments" maxlength="500" placeholder="dejá tu mensaje" rows="5" required></textarea>
+          </label>
+          <button class="square_btn" type="submit">Enviar</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <svg class="social" viewBox="480 170 640 270" aria-labelledby="social-t">
+        <title id="social-t">Redes sociales</title>
+        <rect x="485.5" y="177.5" width="604" height="229" rx="8.5" ry="8.5" class="frame-red"/>
+        <rect x="506.5" y="197.5" width="604" height="229" rx="8.5" ry="8.5" class="frame-navy"/>
+        <a href="https://github.com/Danisdnk" aria-label="GitHub" target="_blank" rel="noopener">
+          <path class="ico" d="M608.62 283a23.57 23.57 0 0 0-7.46 45.94c1.18.22 1.61-.51 1.61-1.13v-4c-6.57 1.43-8-3.160-8-3.16-1.07-2.73-2.62-3.45-2.62-3.45-2.14-1.46.16-1.430.16-1.43a5 5 0 0 1 3.62 2.43c2.1 3.6 5.52 2.56 6.86 2a5 5 0 0 1 1.5-3.15c-5.24-.6-10.75-2.62-10.75-11.66A9.080 9.080 0 0 1 596 299a8.51 8.51 0 0 1 .23-6.24s2-.64 6.49 2.41a22.5 22.5 0 0 1 11.82 0c4.51-3.05 6.48-2.41 6.48-2.41a8.48 8.48 0 0 1 .24 6.24 9.08 9.08 0 0 1 2.42 6.32c0 9.06-5.51 11.05-10.77 11.64a5.64 5.64 0 0 1 1.6 4.36v6.47c0 .63.43 1.36 1.62 1.13a23.57 23.57 0 0 0-7.51-45.92z"/>
+        </a>
+        <a href="https://www.behance.net/dk_dismultimedia" aria-label="Behance" target="_blank" rel="noopener">
+          <g class="ico ico--solid">
+            <path d="M703.8 284.9h22.19a19.89 19.89 0 0 1 7.19 1.3 11.18 11.18 0 0 1 4.89 3.72 11.53 11.53 0 0 1 1.63 3.32 13.43 13.43 0 0 1 .54 3.88 12.76 12.76 0 0 1-.55 3.88 9.09 9.09 0 0 1-1.68 3.11 8.33 8.33 0 0 1-1.55 1.45l-.69.48a11.8 11.8 0 0 1 1.71 1.08 9.85 9.85 0 0 1 2.33 2.51 11.09 11.09 0 0 1 1.39 3.18 14.18 14.18 0 0 1 .46 3.71 14.42 14.42 0 0 1-.52 3.94A13.14 13.14 0 0 1 738 324a14.94 14.94 0 0 1-1.49 2 13 13 0 0 1-1.82 1.65 12.49 12.49 0 0 1-2.47 1.47 14.83 14.83 0 0 1-2.85.9 27 27 0 0 1-3.09.46c-1.09.1-2.2.15-3.32.15h-20.71V284.9zm10.2 7.4v10.02h8.6c2.6 0 5.7-.9 5.7-5s-3.3-5.02-6.4-5.02zm0 18.6v11.8h9.4c3.3 0 6.3-1.3 6.3-5.9s-2.8-5.9-6.4-5.9zM749.21 290.02h18.57v1.54h-18.57zM759 297.2c9.9 0 15.7 6.3 15.7 16.1v2.13h-23c.3 4.5 2.6 7.3 7 7.3 2.4 0 4.3-1 5.2-2.9h9.8c-1.9 6.6-7.8 10-15.3 10-9.6 0-15.4-6.4-15.4-16.1 0-9.6 6.1-16.5 16-16.5zm-.1 6.4c-3.9 0-6.4 2.3-6.9 6.7h13.2c-.4-4.3-2.6-6.7-6.3-6.7z"/>
+          </g>
+        </a>
+        <a href="https://www.facebook.com/DanielaKnoska" aria-label="Facebook" target="_blank" rel="noopener">
+          <path class="ico" d="M871 271a1.74 1.74 0 0 1 1 1.83v7.72c0 1.27-.5 1.8-1.71 1.81h-4.48a4.42 4.42 0 0 0-3.84 1.95 5.13 5.13 0 0 0-.78 2.13c-.12 1.36 0 2.73 0 4.17h8.67c1.15 0 1.67.54 1.67 1.78v7.48c0 1.21-.52 1.75-1.64 1.76h-8.76v28.61a4 4 0 0 1-.05.77 1.3 1.3 0 0 1-1.39 1.24h-10.18a1.31 1.31 0 0 1-1.43-1.27 4 4 0 0 1-.05-.77v-28.6h-8.6c-1.28 0-1.74-.49-1.74-1.87v-7.3c0-1.35.46-1.830 1.72-1.83h7.93v-2.71a24.93 24.93 0 0 1 1.65-8.6 12.62 12.62 0 0 1 8.44-7.7c.91-.28 1.85-.42 2.77-.62z"/>
+        </a>
+        <a href="https://www.linkedin.com/in/danielaknoska/" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <path class="ico" d="M958.4 265a7.75 7.75 0 0 1 8.07 8c-.05 4.46-3.61 7.74-8.35 7.67a7.74 7.74 0 0 1-8-7.88c.04-4.51 3.56-7.79 8.28-7.79zm-7.34 21.88h14.38v45h-14.38zm66.8 45.09h-14.44v-1.65-22a25.65 25.65 0 0 0-.56-5.17c-.59-2.74-2.15-4.71-4.93-5.34a7.3 7.3 0 0 0-7.570 2.42 8.12 8.12 0 0 0-2.15 5.41v26.23h-14.49v-45h14.38v6.17c.9-1.14 1.5-1.92 2.13-2.68 5.75-7 21.49-6.85 25.91 5.29a27.6 27.6 0 0 1 1.72 8.5c.23 9.06.11 18.14.11 27.2a3.25 3.25 0 0 1-.11.65z"/>
+        </a>
+      </svg>
+    </section>
+  </main>
+</body>
+</html>

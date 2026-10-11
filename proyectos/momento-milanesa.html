@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Momento Milanesa · Daniela Knoska</title>
+  <meta name="description" content="Juego publicitario HTML5 para El club de la milanesa, pensado para conectar la experiencia mobile con los locales.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Momento Milanesa · Daniela Knoska">
+  <meta property="og:description" content="Juego publicitario HTML5 para El club de la milanesa, pensado para conectar la experiencia mobile con los locales.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="stylesheet" href="/src/styles/proyecto.css">
+  <script type="module" src="/src/proyecto.js"></script>
+</head>
+<body class="proyecto proyecto--mint proyecto--city">
+  <a class="cerrar" href="../index.html#interactivos" aria-label="Cerrar y volver a Interactivos"><span aria-hidden="true">&times;</span></a>
+  <main>
+    <header class="head">
+      <p class="eyebrow">Interactivos</p>
+      <h1>Momento Milanesa</h1>
+      <ul class="meta">
+        <li>Tipo: Juego publicitario</li>
+        <li>Plataforma: Mobile</li>
+        <li>Formato: HTML5</li>
+      </ul>
+    </header>
+    
+    <section class="split">
+      <picture>
+        <source type="image/avif" srcset="../img/cel-milanesa-640.avif 640w, ../img/cel-milanesa-1112.avif 1112w" sizes="(min-width: 900px) 55vw, 100vw">
+        <source type="image/webp" srcset="../img/cel-milanesa-640.webp 640w, ../img/cel-milanesa-1112.webp 1112w" sizes="(min-width: 900px) 55vw, 100vw">
+        <img src="../img/cel-milanesa-640.webp" alt="El juego Momento Milanesa visto en un celular" width="1112" height="538" fetchpriority="high">
+      </picture>
+      <div class="copy">
+        <h2>Concepto</h2>
+        <p>Fue desarrollado para el concurso y seminario de El club de la milanesa bajo la premisa “MOMENTOS MILANESA”, en relación a la estrategia del cliente, que planeaba la incorporación de shows en vivo a los locales.</p>
+      </div>
+    </section>
+    <section class="split split--rev">
+      <div class="copy">
+        <h3>Momento Rockstar</h3>
+        <p>Para la realización, el obtener “momentos milanesa” se pensó como un método de transmediar la experiencia mobile con la experiencia en los locales.</p>
+      </div>
+      <div class="game" data-src="../juegos/milanesa/index.html" data-title="Momento Milanesa">
+        <picture>
+        <source type="image/avif" srcset="../img/card-milanesa-640.avif 640w, ../img/card-milanesa-960.avif 960w" sizes="(min-width: 900px) 60vw, 100vw">
+        <source type="image/webp" srcset="../img/card-milanesa-640.webp 640w, ../img/card-milanesa-960.webp 960w" sizes="(min-width: 900px) 60vw, 100vw">
+        <img src="../img/card-milanesa-640.webp" alt="" width="960" height="540" loading="lazy" decoding="async">
+      </picture>
+        <button class="game__play" type="button"><span aria-hidden="true">▶</span> Jugar</button>
+      </div>
+    </section>
+  </main>
+  <nav class="pager" aria-label="Más proyectos">
+    <a href="mis-conexiones.html" rel="prev"><span aria-hidden="true">←</span> Mis Conexiones</a>
+    <a href="../index.html#interactivos">Todos los proyectos</a>
+    <a href="anidados-jump.html" rel="next">Anidados Jump <span aria-hidden="true">→</span></a>
+  </nav>
+</body>
+</html>
